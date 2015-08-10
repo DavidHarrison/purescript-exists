@@ -1,7 +1,9 @@
 {
   "name": "purescript-exists",
   "description": "Existential types as a library",
-  "keywords": ["purescript"],
+  "keywords": [
+    "purescript"
+  ],
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -18,5 +20,8 @@
   ],
   "devDependencies": {
     "purescript-console": "^0.1.0"
+  },
+  "dependencies": {
+    "purescript-unsafe-coerce": "~0.1.0"
   }
 }
